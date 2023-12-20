@@ -1,0 +1,40 @@
+print("BOT: Hello HUMAN ^_^ ")
+print("BOT: NAME PLEASE ?? ")
+name=input("USER: ")
+print(f'BOT: So {name} move ahead with your **** HUMAN ISSUE **** ')
+c=0
+us=""
+while(True):
+    us=input(f'{name}: ')
+    if('stress' in us):
+        print('BOT: Sorry to Hear that ')
+        print('BOT: May I Know the issue please ???')
+        us=input(f'{name}: ')
+        if('study' in us):
+            print(f'BOT: See {name} It is absoulutely normal')
+            print('BOT: Talk with your PARENTS and TEACHERS ')
+            print('BOT: Be relaxed and chill and take it as an important learning phase of life')
+        elif('relation' in us):
+            print("BOT: JUST 3rd CLASS HUMAN THINGS '_' ")
+            print("BOT: Talk to your partner and your Family")
+            print("BOT: JUST NORMALIZE AND ENJOY  LIFE ^_^^_^ ")
+    elif('Depression' in us):
+        print('BOT: Sorry to hear that ')
+        print('BOT: Connect your inner self to GOD')
+        print('BOT: Think about Life')
+        print('BOT: GOD is great and Life is Beautifull')
+        print('BOT: Stay Blessed ( AI giving blessing HA HA HA ^^^____^^^')
+    print("BOT: Do you wish to continue ?")
+    print("BOT: Enter 1 to 'CONTINUE' or 0 to 'EXIT' : ")
+    k=int(input(f'{name}: '))
+    if(k==0):
+        if(c>=1):
+            print("BOT: Pheww Anyways I was tired ^_^")
+            break
+        elif(c==0):
+            print("BOT: Leaving SO QUICKLY -_-")
+            print("BOT: OKK GOODBYE")
+            break
+    elif(k==1):
+        print("BOT: Move ahead with your next @ HUMANE ISSUE @ ")
+    c+=1
